@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+	<head>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+			<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+			<title></title>
+			<meta name="description" content="A calculator"/>
+			<meta name="keywords" content="calculator" />
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+			<link rel="stylesheet" type="text/css" href="css/reset.css"/> 
+			<link rel="stylesheet" type="text/css" href="css/style.css"/> <!-- your stylesheet needs to be after the bootstrap & reset stylesheet-->
+			
+
+
+	</head>
+
+
+	<body> 
+		<div class="container">
+			<div class="row red">
+				<div class="col-xs-12 col-sm-4 answer-section">
+					<p id="display-number" value="">0</p>
+					<p id="display-string"><p>
+				</div> <!--col-->
+			</div> <!--row-->
+			<div class="row red">
+				<div class="col-xs-3 col-sm-1 buttons" id="clearAll">
+					<p>AC</p>
+				</div> <!--col-->
+				<div class="col-xs-3 col-sm-1 buttons" id="negative">
+					<p>+/-</p>
+				</div> <!--col-->
+				<div class="col-xs-3 col-sm-1 buttons" id="percent">
+					<p>%</p>
+				</div> <!--col-->
+				<div class="col-xs-3 col-sm-1 buttons operation-button">
+					<p id="divideOperator">÷</p>
+				</div> <!--col-->
+			</div> <!--row-->
+			<div class="row red">
+				<div class="col-xs-3 col-sm-1 buttons">
+					<p data-value="7" class="number">7</p>
+				</div> <!--col-->
+				<div class="col-xs-3 col-sm-1 buttons">
+					<p data-value="8" class="number">8</p>
+				</div> <!--col-->
+				<div class="col-xs-3 col-sm-1 buttons">
+					<p data-value="9" class="number">9</p>
+				</div> <!--col-->
+				<div class="col-xs-3 col-sm-1 buttons operation-button">
+					<p id="multiplyOperator">x</p>
+				</div> <!--col-->
+			</div> <!--row-->
+			<div class="row red">
+				<div class="col-xs-3 col-sm-1 buttons">
+					<p data-value="4" class="number">4</p>
+				</div> <!--col-->
+				<div class="col-xs-3 col-sm-1 buttons">
+					<p data-value="5" class="number">5</p>
+				</div> <!--col-->
+				<div class="col-xs-3 col-sm-1 buttons">
+					<p data-value="6" class="number">6</p>
+				</div> <!--col-->
+				<div class="col-xs-3 col-sm-1 buttons operation-button">
+					<p id="subtractOperator">-</p>
+				</div> <!--col-->
+			</div> <!--row-->
+			<div class="row red">
+				<div class="col-xs-3 col-sm-1 buttons">
+					<p data-value="1" class="number">1</p>
+				</div> <!--col-->
+				<div class="col-xs-3 col-sm-1 buttons">
+					<p data-value="2" class="number">2</p>
+				</div> <!--col-->
+				<div class="col-xs-3 col-sm-1 buttons">
+					<p data-value="3" class="number">3</p>
+				</div> <!--col-->
+				<div class="col-xs-3 col-sm-1 buttons operation-button">
+					<p id="addOperator">+</p>
+				</div> <!--col-->
+			</div> <!--row-->
+			<div class="row red">
+				<div class="col-xs-6 col-sm-2 zeroButton">
+					<p data-value="0" class="number">0</p>
+				</div> <!--col-->
+				<div class="col-xs-3 col-sm-1 buttons">
+					<p id="decimalPoint">.</p>
+				</div> <!--col-->
+				<div class="col-xs-3 col-sm-1 buttons equals-button">
+					<p id="equals">=</p>
+				</div> <!--col-->
+			</div> <!--row-->
+		</div> <!--row-->
+		
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	</body>
+
+
+</html>

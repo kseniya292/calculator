@@ -1,0 +1,99 @@
+@media all and (min-width: 320px) {
+
+.container {
+	padding: none;
+}
+
+body {
+ background-color: #e1e1e1;
+}
+
+.buttons {
+	height: 90px;
+	background-color: #696969;
+	border: 1px solid grey;
+}
+
+.answer-section {
+	background-color: #d5c0ce;
+	height: 160px;
+	border: 1px solid grey;
+}
+.zeroButton {
+	height: 90px;	
+	background-color: #696969;
+	border: 1px solid grey;
+}
+
+.buttons:hover, .zeroButton:hover {
+	background-color: #878787;
+}
+
+.operation-button {
+	background-color: #494949;
+}
+
+.operation-button:hover {
+	background-color: #5e5e5e;
+}
+
+.columns {
+	padding: none;
+}
+
+p {
+	color: white;
+	font-size: 40px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#display-number {
+	font-size: 70px;
+}
+
+#display-string {
+	font-size: 20px;
+}
+
+
+
+
+
+
+}/*--------------------------------------end of mobile style rules-------------------------------------------------------*/
+@media all and (min-width: 700px) {
+
+.answer-section {
+	width: 360px;
+}
+.buttons {
+	width: 90px;
+}
+
+.zeroButton {
+	width: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+}/*--------------------------------------end of tablet style rules---------------------------------------------------------*/
+@media all and (min-width: 960px) {
+
+
+
+
+
+
+
+
+
+
+
+}/*--------------------------------------end of desktop style rules---------------------------------------------------------*/
